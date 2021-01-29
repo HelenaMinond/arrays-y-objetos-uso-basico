@@ -41,9 +41,9 @@ document.write (
 
 document.write("<b>Atenciones área Radiología</b>", "<br>");
 //Datos (Nombre y previsión) de primer paciente correspondiente a especialidad Radiología
-document.write(`Primera atención: ${radiologia[0].PACIENTE} - ${radiologia[0].PREVISION} | `);
+document.write(`Primera atención: ${radiologia[0].PACIENTE} - ${radiologia[0].RUT} - ${radiologia[0].PREVISION} | `);
 //Datos (Nombre y previsión) de ultimo paciente correspondiente a especialidad Radiología
-document.write(`Última atención: ${radiologia[radiologia.length - 1].PACIENTE} - ${radiologia[radiologia.length - 1].PREVISION}`);
+document.write(`Última atención: ${radiologia[radiologia.length - 1].PACIENTE} - ${radiologia[radiologia.length - 1].RUT} - ${radiologia[radiologia.length - 1].PREVISION}`);
 
 
 document.write ("<br>", "<br>");
@@ -51,9 +51,9 @@ document.write ("<br>", "<br>");
 
 document.write("<b>Atenciones área Traumatología</b>", "<br>");
 //Datos (Nombre y previsión) de primer paciente correspondiente a especialidad Traumatología
-document.write(`Primera atención: ${traumatologia[0].PACIENTE} - ${traumatologia[0].PREVISION} | `);
+document.write(`Primera atención: ${traumatologia[0].PACIENTE} - ${traumatologia[0].RUT} - ${traumatologia[0].PREVISION} | `);
 //Datos (Nombre y previsión) de último paciente correspondiente a especialidad Traumatología
-document.write(`Última atención: ${traumatologia[traumatologia.length - 1].PACIENTE} - ${traumatologia[traumatologia.length - 1].PREVISION}`);
+document.write(`Última atención: ${traumatologia[traumatologia.length - 1].PACIENTE} - ${traumatologia[traumatologia.length - 1].RUT} - ${traumatologia[traumatologia.length - 1].PREVISION}`);
 
 
 document.write ("<br>", "<br>");
@@ -61,6 +61,6 @@ document.write ("<br>", "<br>");
 
 document.write("<b>Atenciones área Dental</b>", "<br>");
 //Datos (Nombre y previsión) de primer paciente correspondiente a especialidad Dental
-document.write(`Primera atención: ${dental[0].PACIENTE} - ${dental[0].PREVISION} | `);
+document.write(`Primera atención: ${dental[0].PACIENTE} - ${dental[0].RUT} - ${dental[0].PREVISION} | `);
 //Datos (Nombre y previsión) de último paciente correspondiente a especialidad Dental
-document.write(`Última atención: ${dental[dental.length - 1].PACIENTE} - ${dental[dental.length - 1].PREVISION}`);
+document.write(`Última atención: ${dental[dental.length - 1].PACIENTE} - ${dental[dental.length - 1].RUT} - ${dental[dental.length - 1].PREVISION}`);
